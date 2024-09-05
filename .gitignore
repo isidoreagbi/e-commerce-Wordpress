@@ -1,0 +1,21 @@
+# WordPress Core files
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backup/
+wp-content/languages/
+wp-content/plugins/
+wp-content/themes/twenty*/
+
+# Logs and system files
+error_log
+*.log
+.DS_Store
+.idea/
+.vscode/
+node_modules/
+vendor/
+
+# Ignore composer dependencies
+composer.lock
